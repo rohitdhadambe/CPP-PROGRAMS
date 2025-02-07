@@ -4,7 +4,7 @@
 
 using namespace std;
 int main() {
-   string s1 = "abcabcabcabc";
+   string s1 = "zzzzzzzzzz";//abcabcc+abcabcc
    int mini=INT_MAX;
    map<char , int> m1;
       for(int i=0; i<s1.length();i++){
