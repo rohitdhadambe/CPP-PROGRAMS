@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int arr[] = { 3, 3, 4, 4};
-    int count = 0;
+    int arr[] = { 3, 4, 4};
+    int count = -1;
     int n = 4; // Number of elements in the array
 
     for (int i = 0; i < n - 1; i++) {
