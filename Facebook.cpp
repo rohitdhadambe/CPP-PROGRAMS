@@ -4,6 +4,7 @@
 using namespace std;
 
 string decodeString(string s) {
+    
     stack<int> numStack; // Stack for numbers
     stack<string> strStack; // Stack for substrings
     string currStr = "";
@@ -11,7 +12,7 @@ string decodeString(string s) {
 
     for (char c : s) {
         if (isdigit(c)) {
-            num = c - '0'; // Handle multi-digit numbers
+            num = num * 10 + (c - '0'); // Handle multi-digit numbers
         } else if (c == '[') {
             numStack.push(num);
             strStack.push(currStr);
@@ -32,7 +33,7 @@ string decodeString(string s) {
 }
 
 int main() {
-    string s = "3[a2[c]]";
+    string s = "3[a2[bc]]";
     cout << decodeString(s) << endl; // Output: "aaabcbc"
     return 0;
 }
