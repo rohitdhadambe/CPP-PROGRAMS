@@ -3,8 +3,8 @@
 using namespace std;
 int main() {
   
-    int Target = 23 , i=0 , sum=0 , count=0;
-    vector <int> v1 = {5,2,1};
+    int Target = 13 , i=0 , sum=0 , count=0;
+    vector <int> v1 = {5,1};
 
     while(1){
     if(sum==Target) {
