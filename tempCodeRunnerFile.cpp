@@ -1,5 +1,2 @@
-while (!q1.empty())
-{
-    cout<<q1.top();
-    q1.pop();
-}
+vector<int> srt={1,3,0,5,8,5};
+    
