@@ -48,7 +48,8 @@ int main() {
         if (ch == 1) b.deposit();
         else if (ch == 2) b.withdraw();
         else if (ch == 3) b.show();
-    } while (ch >= 4);
+        
+    } while (ch != 4);
     
     return 0;
 }
