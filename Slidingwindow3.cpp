@@ -12,7 +12,7 @@ if(v1[i]>maxi){
 cout<<"First max = "<<maxi;
 
 for(int i=0; i<v1.size(); i++){
-    if(v1[i]<maxi &&  v1[i]>maxi2){
+    if(v1[i]<maxi && v1[i]>maxi2){
     maxi2 = v1[i];
 }
 }
